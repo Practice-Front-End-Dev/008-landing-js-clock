@@ -1,5 +1,3 @@
 # javascript-clock
-Full Page Javascript Clock
 
-
-Playing around as a beginner javascript developer ...
+https://practice-web-design.github.io/lp-project-002/
