@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript Clock</title>
+    <meta name="description" content="A simple JavaScript Clock">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <!-- LOGIC: Use Window.setIntervel method in body tag to updateClock() every 1000 milliseconds (second) -->
+  <body onload="updateClock(); setInterval('updateClock()', 1000);">
+    <div class="bg-img">
+      <div class="div-cta">
+        <!-- CREATE: &nbsp creates child in DOM to populate with js time function result ... -->
+        <h1>
+          <span id="the-day">&nbsp</span> is your day.
+        </h1>
+        <div class="clock-style">
+          <span id="clock">&nbsp</span>
+          <span id="amPm">&nbsp</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Link to javascript clock -->
+    <script src="app.js"></script>
+  </body>
+</html>

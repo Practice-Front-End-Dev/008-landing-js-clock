@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Heebo:500&display=swap');
+
+
+/* Default css overide */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/***************************
+BACKGROUND
+***************************/
+
+.bg-img {
+	height: 100%;
+	width: 100%;
+	padding-top: 10px;
+	position: relative;
+	overflow: hidden;
+	background: url("../assets/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/***************************
+CENTER THE CONTENT
+***************************/
+
+.div-cta {
+	display: block;
+	position: relative;
+	top: 14%;
+	width: 100%;
+	text-align: center;
+}
+
+/***************************
+STYLE THE CONTENT
+***************************/
+
+h1 {
+	color: #F9F3F4;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 7rem;
+	font-weight: 600;
+	letter-spacing: -0.01em;
+	text-shadow: 0px 0px 300px black;
+	padding-top: 10px;
+}
+
+.clock-style {
+	color: #fff;
+	font-family: 'Heebo', sans-serif;
+	font-size: 3.5rem;
+	text-shadow: 0px 0px 300px #fff;
+	margin-top: 120px;
+	letter-spacing: 1.2px;
+}
+
+#amPm {
+	font-size: 2rem;
+}
+
+/***************************
+MOBILE
+***************************/
+
+@media screen and (max-width: 720px) {
+	h1 {
+		font-size: 3.5rem;
+		padding-top: none;
+	}
+	.clock-style {
+		font-size: 2.5rem;
+		margin-top: 60px;
+	}
+}
