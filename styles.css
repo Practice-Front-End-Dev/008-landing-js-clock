@@ -19,7 +19,7 @@ BACKGROUND
 	padding-top: 10px;
 	position: relative;
 	overflow: hidden;
-	background: url("../assets/background.jpg");
+	background: url("img/background.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
