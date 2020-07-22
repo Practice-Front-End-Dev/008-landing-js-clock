@@ -1,3 +1,3 @@
 # Fullscreen JavaScript Clock
 
-https://practice-web-dev.github.io/js-full-page-clock/
+https://practice-front-end-dev.github.io/js-full-page-clock/
