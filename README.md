@@ -1,3 +1,3 @@
 ## Fullscreen JavaScript Clock
 
-https://practice-web-sites.github.io/javascript-clock/
+https://practice-javascript-dev.github.io/javascript-clock/
